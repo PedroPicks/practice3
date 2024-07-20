@@ -1,0 +1,88 @@
+body {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+.menu {
+    font-size: 1.5rem;
+}
+.jeans {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.date {
+    font-size: 1.5rem;
+}
+.middle { 
+    display: flex; 
+   justify-content: space-between; 
+    align-items: center; 
+    gap: 0; 
+} 
+.stack {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+}
+.images{
+    position: absolute;
+}
+.front {
+    /* margin-top: -20px; */
+    z-index: 4;
+}
+.second {
+    margin-top: -40px;
+    z-index: 3;
+}
+.third {
+    margin-top: -65px;
+    z-index: 2;
+}
+.last {
+    margin-top: -85px;
+    z-index: 1;
+}
+.wan{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 15rem;
+}
+.por{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 28rem;
+}
+.svg {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+.play {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 12rem;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10rem;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
